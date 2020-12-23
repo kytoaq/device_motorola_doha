@@ -97,6 +97,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     ueventd.qcom.rc \
 
+# Screen
+TARGET_SCREEN_HEIGHT := 2280
+TARGET_SCREEN_WIDTH := 1080
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/configstore@1.1.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.1.policy \
