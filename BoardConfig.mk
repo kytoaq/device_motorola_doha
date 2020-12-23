@@ -20,6 +20,9 @@ BOARD_VENDOR := motorola
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Kernel - defconfig
+TARGET_KERNEL_CONFIG := edward_doha_defconfig
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor_prop.mk
 
