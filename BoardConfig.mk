@@ -17,6 +17,12 @@
 DEVICE_PATH := device/motorola/doha
 BOARD_VENDOR := motorola
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor_prop.mk
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-08-01
 
